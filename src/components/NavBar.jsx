@@ -27,30 +27,36 @@ const NavBar = () => {
             </span>
           </a>
           <ul
-            className={`flex lg:gap-12 gap-9 items-center mobileView ${
+            className={`flex lg:gap-12 xl:ml-0 md:ml-8 gap-9 items-center mobileView ${
               show ? "right-[100%] " : "right-0 max-md:min-h-screen"
             }`}
           >
             {NAV_LINK_LIST.map((data, i) => (
               <li
                 key={i}
-                className="list-disc duration-300 capitalize hover:text-dark-blue font-cabin font-normal text-white text-base !leading-150"
+                className="list-disc duration-300 capitalize  hover:text-dark-blue font-cabin font-normal text-white text-base !leading-150"
               >
-                <a href="" className="lg:ml-5 ml-1.5">
+                <a href={data.url} onClick={showNav} className="lg:ml-5 ml-1">
                   {data.title}
                 </a>
               </li>
             ))}
             <li>
               {" "}
-              <button className="bg-dark-blue sm:hidden block duration-300 relative after:absolute overflow-hidden after:top-0 hover:after:right-0 after:bottom-0 after:left-0 after:bg-white border-dark-blue border-2 hover:text-dark-blue after:z-[-1] z-[1] after:duration-300 after:right-[100%] !leading-121 rounded-[18px] py-3 lg:py-[18px] uppercase text-sm lg:text-base font-medium font-cabin text-white px-4 lg:px-[38.5px]">
+              <button
+                onClick={showNav}
+                className="bg-dark-blue sm:hidden block duration-300 relative after:absolute overflow-hidden after:top-0 hover:after:right-0 after:bottom-0 after:left-0 after:bg-white border-dark-blue border-2 hover:text-dark-blue after:z-[-1] z-[1] after:duration-300 after:right-[100%] !leading-121 rounded-[18px] py-3 lg:py-[18px] uppercase text-sm lg:text-base font-medium font-cabin text-white px-4 lg:px-[38.5px]"
+              >
                 Buy Now
               </button>
             </li>
           </ul>
 
           <div className="flex gap-3 items-center">
-            <button className="bg-dark-blue sm:block hidden duration-300 relative after:absolute overflow-hidden after:top-0 hover:after:right-0 after:bottom-0 after:left-0 after:bg-white border-dark-blue border-2 hover:text-dark-blue after:z-[-1] z-[1] after:duration-300 after:right-[100%] !leading-121 rounded-[18px] py-2 sm:py-3 lg:py-[18px] uppercase sm:text-sm text-sm lg:text-base font-medium font-cabin text-white px-4 lg:px-[38.5px]">
+            <button
+              onClick={showNav}
+              className="bg-dark-blue sm:block hidden duration-300 relative after:absolute overflow-hidden after:top-0 hover:after:right-0 after:bottom-0 after:left-0 after:bg-white border-dark-blue border-2 hover:text-dark-blue after:z-[-1] z-[1] after:duration-300 after:right-[100%] !leading-121 rounded-[18px] py-2 sm:py-3 lg:py-[18px] uppercase sm:text-sm text-sm lg:text-base font-medium font-cabin text-white px-4 lg:px-[38.5px]"
+            >
               Buy Now
             </button>
             <label className="md:hidden" onClick={showNav}>
