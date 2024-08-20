@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Icons = ({ icon, className = "", ...props }) => {
   const iconsList = {
@@ -14,19 +14,19 @@ const Icons = ({ icon, className = "", ...props }) => {
           className="group-hover:stroke-black"
           d="M14.4297 5.92969L20.4997 11.9997L14.4297 18.0697"
           stroke="white"
-          stroke-width="1.5"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.5"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           className="group-hover:stroke-black"
           d="M3.5 12H20.33"
           stroke="white"
-          stroke-width="1.5"
-          stroke-miterlimit="10"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="1.5"
+          strokeMiterlimit="10"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
     ),
@@ -38,7 +38,7 @@ const Icons = ({ icon, className = "", ...props }) => {
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clip-path="url(#clip0_1_116)">
+        <g clipPath="url(#clip0_1_116)">
           <path
             className="group-hover:fill-white"
             d="M19.5001 15.4998H17.5001V8.9098L5.91006 20.4998L4.50006 19.0898L16.0901 7.4998H9.50006V5.4998H19.5001V15.4998Z"
@@ -58,7 +58,8 @@ const Icons = ({ icon, className = "", ...props }) => {
       </svg>
     ),
     "dotted-line": (
-      <svg className='w-full'
+      <svg
+        className="w-full"
         width="234"
         height="2"
         viewBox="0 0 234 2"
@@ -69,7 +70,7 @@ const Icons = ({ icon, className = "", ...props }) => {
           opacity="0.2"
           d="M0 1H233.75"
           stroke="black"
-          stroke-dasharray="5 5"
+          strokeDasharray="5 5"
         />
       </svg>
     ),
@@ -77,4 +78,4 @@ const Icons = ({ icon, className = "", ...props }) => {
   return icon && iconsList[icon];
 };
 
-export default Icons
+export default Icons;
