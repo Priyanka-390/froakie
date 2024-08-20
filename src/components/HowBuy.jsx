@@ -7,7 +7,7 @@ import { BUY_DATA_LIST } from '../utils/helper';
 
 const HowBuy = () => {
   return (
-    <div id="developers" className="lg:py-[133px] md:py-20 sm:py-16 py-14">
+    <div id="developers" className="lg:pb-[133px] lg:pt-[77px] relative z-0 md:py-20 sm:py-16 py-14">
       <div className="container max-w-[1180px] xl:px-0">
         <Heading className="text-center md:mb-20 sm:mb-14 mb-7 lg:mb-[89px]">
           How To Buy

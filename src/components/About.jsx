@@ -6,7 +6,7 @@ import PrimaryButton from './common/PrimaryButton';
 
 const About = () => {
   return (
-    <div className="md:-mt-56 sm:-mt-28 -mt-64 max-lg:bg-light-sky overflow-hidden z-10 relative">
+    <div className="md:-mt-56 sm:-mt-28 xl:pb-14 -mt-64 max-lg:bg-light-sky overflow-hidden z-10 relative">
       <div className="container relative z-0 max-w-[1180px] xl:px-0">
         <img
           src={ellipse}

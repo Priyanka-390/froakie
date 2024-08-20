@@ -7,7 +7,7 @@ import cloud from "../assets/images/webp/cloud.webp"
 
 const Header = () => {
   return (
-    <div className="bg-hero relative z-0 bg-cover xl:px-0 bg-center h-[1229px] pt-10">
+    <div className="bg-hero relative z-0 bg-cover xl:px-0 bg-center h-[1229px] pt-6 md:pt-10">
       <NavBar />
       <div className="container max-w-[1180px] xl:px-0">
         <div className="mt-9 max-md:flex-wrap flex justify-between">
@@ -31,7 +31,7 @@ const Header = () => {
               CA: 0xf940400F89B8eA896b67110a0D
               <span className="block"></span> CE492FF6326b10
             </p>
-            <div className="flex max-md:justify-center gap-2 my-8">
+            <div className="flex max-md:justify-center gap-2 my-4 md:my-8">
               {SOCIAL_MEDIA_LINKS_LIST.map((data, i) => (
                 <a
                   key={i}
@@ -57,10 +57,10 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="absolute lg:bottom-12 xl:-bottom-2 md:bottom-16 sm:bottom-8 bottom-60 -z-10 right-0 w-full left-0">
+      <div className="absolute lg:bottom-12 xl:-bottom-2 md:bottom-16 sm:bottom-16 bottom-60 -z-10 right-0 w-full left-0">
         <img
           src={cloud}
-          className="2xl:h-[720px] xl:h-[680px] md:h-[600px] sm:h-[300px] h-[200px] w-full"
+          className="2xl:h-[720px] xl:h-[680px] md:h-[600px] sm:h-[290px] h-[159px] w-full"
           alt="cloud"
         />
       </div>
