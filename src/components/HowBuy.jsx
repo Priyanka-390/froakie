@@ -30,7 +30,7 @@ const HowBuy = () => {
                   <p className="font-cabin group-hover:text-circle-blue duration-300 !leading-160 font-bold text-xl text-dark-blue">
                     {data.title}
                   </p>
-                  <div className="lg:size-14 sm:size-11 size-9 rounded-full group-hover:bg-dark-blue hover:border-none duration-300 border border-circle-blue bg-transparent hover:bg-dark-blue flex justify-center items-center">
+                  <div className="lg:size-14 sm:size-11 size-9 rounded-full group-hover:bg-dark-blue group-hover:border-none duration-300 border border-circle-blue bg-transparent hover:bg-dark-blue flex justify-center items-center">
                     <Icons icon="buy-arrow" />
                   </div>
                 </div>
