@@ -4,8 +4,12 @@ import Paragraph from './common/Paragraph';
 import {FOOTER_LINK_LIST, SOCIAL_MEDIA_LINKS_LIST } from '../utils/helper';
 
 const Contact = () => {
+  const currentYear = new Date().getFullYear();
   return (
-    <div id='contact' className="bg-footer md:pt-[95px] pt-14 md:pb-[99px] pb-14 bg-cover bg-center">
+    <div
+      id="contact"
+      className="bg-footer md:pt-[95px] pt-14 md:pb-[99px] pb-14 bg-cover bg-center"
+    >
       <div className="container max-w-[1180px]">
         <div className="bg-contact bg-full bg-center xl:h-[502px] lg:h-[470px] md:h-[400px] max-md:pb-12 sm:h-[300px] h-[270px] px-4 flex flex-col justify-center items-center">
           <Heading className="!text-white text-center" children="Contact" />
@@ -20,7 +24,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 href={data.url}
-                className='hover:-translate-y-2 duration-300'
+                className="hover:-translate-y-2 duration-300"
               >
                 <img
                   src={data.icons}
@@ -31,7 +35,7 @@ const Contact = () => {
             ))}
           </div>
         </div>
-        <div className='flex items-center max-md:flex-col md:mt-[82px] mt-5 md:gap-12 justify-center max-md:pt-4 md:justify-between'>
+        <div className="flex items-center max-md:flex-col md:mt-[82px] mt-5 md:gap-12 justify-center max-md:pt-4 md:justify-between">
           <div className="flex items-center  gap-4 lg:gap-10">
             {FOOTER_LINK_LIST.map((data, i) => (
               <a
@@ -44,7 +48,7 @@ const Contact = () => {
             ))}
           </div>
           <p className="font-jost font-medium !leading-146 text-sm text-dark-blue">
-            © 2000-2024, All Rights Reserved
+            © 2000-<span>{currentYear}</span>, All Rights Reserved
           </p>
         </div>
       </div>
