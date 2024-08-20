@@ -57,7 +57,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="absolute lg:bottom-12 xl:-bottom-2 md:bottom-16 sm:bottom-16 bottom-60 -z-10 right-0 w-full left-0">
+      <div className="absolute lg:bottom-12 xl:-bottom-2 md:bottom-16 sm:bottom-16 bottom-64 -z-10 right-0 w-full left-0">
         <img
           src={cloud}
           className="2xl:h-[720px] xl:h-[680px] md:h-[600px] sm:h-[290px] h-[159px] w-full"
