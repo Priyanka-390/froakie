@@ -20,6 +20,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 href={data.url}
+                className='hover:-translate-y-2 duration-300'
               >
                 <img
                   src={data.icons}

@@ -16,7 +16,7 @@ const About = () => {
         <Heading className="text-center md:mb-3 mb-2">
           About Our Froakie
         </Heading>
-        <Paragraph className="max-w-[766px] !font-cabin mb-10 text-center mx-auto">
+        <Paragraph className="max-w-[766px] !font-cabin md:mb-10 mb-6 text-center mx-auto">
           {" "}
           children="Pepe is the most memeable memecoin around the world, it‘s
           time to make memecoins great again and add some frog beside all dog

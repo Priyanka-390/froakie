@@ -38,6 +38,7 @@ const Header = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   href={data.url}
+                  className="hover:-translate-y-2 duration-300"
                 >
                   <img src={data.icons} alt="" />
                 </a>
@@ -47,7 +48,7 @@ const Header = () => {
               <PrimaryButton>Get started</PrimaryButton>
             </div>
           </div>
-          <div className='flex max-md:justify-center justify-end w-full'>
+          <div className="flex max-md:justify-center justify-end w-full">
             <img
               src={froaki}
               className="xl:w-[536px] lg:w-[550px] md:w-[500px] sm:h-[400px] h-[300px] lg:h-[464px]"
@@ -57,7 +58,11 @@ const Header = () => {
         </div>
       </div>
       <div className="absolute lg:bottom-12 xl:-bottom-2 md:bottom-16 sm:bottom-8 bottom-60 -z-10 right-0 w-full left-0">
-        <img src={cloud} className="2xl:h-[720px] xl:h-[680px] md:h-[600px] sm:h-[300px] h-[200px] w-full" alt="cloud" />
+        <img
+          src={cloud}
+          className="2xl:h-[720px] xl:h-[680px] md:h-[600px] sm:h-[300px] h-[200px] w-full"
+          alt="cloud"
+        />
       </div>
     </div>
   );
