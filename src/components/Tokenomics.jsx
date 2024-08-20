@@ -17,7 +17,7 @@ const Tokenomics = () => {
               <div className="grid gap-3.5 relative sm:grid-cols-2 z-0 grid-cols-1 justify-center lg:grid-cols-4">
                   <img src={ellipse} className="absolute pointer-events-none -z-10 bottom-[-23%] md:block hidden left-[-5%]" alt="ellipse" />
                   {TOKENOMICS_DATA_LIST.map((data,i)=>(
-                   <div key={i} className="col-span-1 flex justify-center">
+                   <div key={i} className={`col-span-1 flex max-sm:justify-center max-md:flex ${ i===2 && "sm:justify-end"} ${i === 0 && "sm:justify-end"}`}>
             <div className="p-[25px] max-w-[283px] flex-col flex justify-center items-center rounded-3xl  md:h-[207px] bg-light-white">
               <p className="font-outfit mb-5 font-semibold xl:text-custom-6xl lg:text-6xl md:text-5xl sm:text-4xl text-3xl text-circle-blue">
                                   {data.title}%

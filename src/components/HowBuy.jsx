@@ -16,7 +16,7 @@ const HowBuy = () => {
           <div className="xl:max-w-[790px] max-lg:justify-center max-lg:mx-auto flex w-full">
             <img
               src={phone}
-              className="xl:w-[790px] lg:-translate-x-16 -translate-x-10 max-sm:size-[300px] lg:w-[600px] xl:h-[653px]"
+              className="xl:w-[790px] lg:-translate-x-16 sm:-translate-x-10 -translate-x-4 max-sm:size-[300px] lg:w-[600px] xl:h-[653px]"
               alt="phone"
             />
           </div>
