@@ -33,26 +33,26 @@ const About = () => {
                 alt="about"
               />
             </div>
-            <div className="2xl:mr-12 max-md:w-full">
+            <div className=" max-md:w-full">
               <div className="font-cabin max-md:mx-auto font-normal max-w-[86px] lg:mb-8 mb-4 !leading-155 border-light-border rounded-full pr-6 pl-5 border  py-[7px] text-base sm:text-base">
                 About
               </div>
-              <h3 className="text-dark-blue  font-cabin font-medium lg:text-custom-3xl max-md:text-center sm:text-3xl text-2xl !leading-121">
+              <h3 className="text-dark-blue md:mb-4 mb-3 font-cabin font-medium lg:text-custom-3xl max-md:text-center sm:text-3xl text-2xl !leading-121">
                 What Froakie is All About
               </h3>
-              <Paragraph className="max-md:text-center max-md:mx-auto max-w-[532px]">
+              <Paragraph className="max-md:text-center !text-light-grey !text-opacity-100 max-md:mx-auto max-w-[532px]">
                 Come join the pond! Whether you’re launching bubbles or laying
                 out on a lily pad, there’s a little something for everyone here.
                 Hosted on the Ethereum blockchain, Froakie brings water types
                 from all walks of life together.
               </Paragraph>
-              <Paragraph className="max-md:text-center max-md:mx-auto max-w-[532px]">
+              <Paragraph className="max-md:text-center !text-light-grey !text-opacity-100 max-md:mx-auto max-w-[532px]">
                 As we continue to evolve, community makes our growth possible…
                 Even if that means protecting one another with a flurry of
                 frubbles from time to time. Meanwhile, we’ve always got one
                 finger on the water pulse by keeping our community in the know.
               </Paragraph>
-              <Paragraph className="max-md:text-center max-md:mx-auto lg:mb-8 mb-4 max-w-[532px]">
+              <Paragraph className="max-md:text-center !text-light-grey !text-opacity-100 max-md:mx-auto lg:mb-8 mb-4 max-w-[532px]">
                 So if you’re ready to hop on over as a Froakie holder, prepare
                 to make a splash. That’s because together, we’re taking one
                 giant leap for amphibians far and wide.
