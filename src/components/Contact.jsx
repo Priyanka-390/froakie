@@ -5,9 +5,9 @@ import {FOOTER_LINK_LIST, SOCIAL_MEDIA_LINKS_LIST } from '../utils/helper';
 
 const Contact = () => {
   return (
-    <div id='contact' className="bg-footer pt-[95px] pb-[99px] bg-cover bg-center">
+    <div id='contact' className="bg-footer md:pt-[95px] pt-14 md:pb-[99px] pb-14 bg-cover bg-center">
       <div className="container max-w-[1180px]">
-        <div className="bg-contact bg-full bg-center xl:h-[509px] lg:h-[470px] md:h-[400px] max-md:pb-12 sm:h-[300px] h-[270px] px-4 flex flex-col justify-center items-center">
+        <div className="bg-contact bg-full bg-center xl:h-[502px] lg:h-[470px] md:h-[400px] max-md:pb-12 sm:h-[300px] h-[270px] px-4 flex flex-col justify-center items-center">
           <Heading className="!text-white text-center" children="Contact" />
           <Paragraph
             className="text-center md:mb-8 mb-4 !font-cabin !text-base sm:!text-lg max-w-[766px] mx-auto !text-white"
