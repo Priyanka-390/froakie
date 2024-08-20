@@ -37,7 +37,7 @@ const About = () => {
               <div className="font-cabin max-md:mx-auto font-normal max-w-[86px] lg:mb-8 mb-4 !leading-155 border-light-border rounded-full pr-6 pl-5 border  py-[7px] text-base sm:text-base">
                 About
               </div>
-              <h3 className="text-dark-blue md:mb-4 mb-3 font-cabin font-medium lg:text-custom-3xl max-md:text-center sm:text-3xl text-2xl !leading-121">
+              <h3 className="text-dark-blue lg:mb-4 mb-3 font-cabin font-medium lg:text-custom-3xl max-md:text-center sm:text-3xl text-2xl !leading-121">
                 What Froakie is All About
               </h3>
               <Paragraph className="max-md:text-center !text-light-grey !text-opacity-100 max-md:mx-auto max-w-[532px]">
