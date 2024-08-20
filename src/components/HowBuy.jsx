@@ -7,14 +7,14 @@ import { BUY_DATA_LIST } from '../utils/helper';
 
 const HowBuy = () => {
   return (
-    <div className='lg:py-[133px] md:py-20 sm:py-16 py-14'>
+    <div id='developers' className='lg:py-[133px] md:py-20 sm:py-16 py-14'>
         <div className="container max-w-[1180px] xl:px-0">
           <Heading className="text-center md:mb-20 sm:mb-14 mb-7 lg:mb-[89px]">How To Buy</Heading>
           <div className="flex max-lg:flex-wrap justify-between gap-6 items-center">
-            <div className="max-w-[577px] max-lg:justify-center max-lg:mx-auto flex w-full">
+            <div className="xl:max-w-[660px] max-lg:justify-center max-lg:mx-auto flex w-full">
               <img
                 src={phone}
-                className="xl:w-[577px] max-sm:size-[300px] lg:w-[500px] xl:h-[653px]"
+                className="xl:w-[660px] xl:-translate-x-16 max-sm:size-[300px] lg:w-[600px] xl:h-[653px]"
                 alt="phone"
               />
             </div>
