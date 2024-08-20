@@ -13,7 +13,7 @@ const Header = () => {
         <div className="mt-9 max-md:flex-wrap flex justify-between">
           <div className="w-full max-md:mb-9">
             <div className="max-w-[214px] max-md:mx-auto w-full rounded-full p-[5px] flex gap-2.5 items-center bg-sky mb-3">
-              <span className=" text-white font-cabin text-xs font-bold bg-sky-blue py-2 px-5 rounded-full !leading-121">
+              <span className=" text-white cursor-pointer hover:text-white hover:bg-transparent duration-300 border border-transparent hover:border-sky-blue font-cabin text-xs font-bold bg-sky-blue py-2 px-5 rounded-full !leading-121">
                 Coin
               </span>
               <p className="text-sm text-white font-cabin !leading-150 font-normal">
